@@ -1,0 +1,26 @@
+//printing first 5 elements and also take inputs and print it.
+
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("How many elements you have to  wrtie?");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int arr[]=new int[a];
+		for(int i=0;i<a;i++)
+		{
+		     System.out.print("Element at " +i + " place is\n");
+		    arr[i]=sc.nextInt();
+		}
+		
+			for(int i=0;i<a;i++)
+{
+		    System.out.print("Element at "+i+  " is " +arr[i] + "\n");
+		  //arr[i]=sc.nextInt();
+		}
+		
+		
+	}
+}
